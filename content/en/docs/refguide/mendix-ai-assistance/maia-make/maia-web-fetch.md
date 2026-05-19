@@ -21,6 +21,10 @@ When Maia wants to fetch content from the web, it asks for your permission first
 
 {{< figure src="/attachments/refguide/mendix-ai-assistance/maia-make/maia-web-fetch/maia-web-fetch-permission-dialog.png" alt="Maia Web Fetch permission dialog" max-width=80% >}}
 
+## Enable/Disable Web Tools
+
+To toggle ON or OFF this feature, navigate to Preferences > Maia and check Enable web tools. This requires studio pro to be restarted in order to take effect.
+
 ## What Maia Can Fetch
 
 Maia can retrieve the following types of content:
@@ -38,6 +42,7 @@ Maia cannot access the following:
 * **Binary content** — Images, videos, PDFs, and archives cannot be fetched. If a URL serves binary content, Maia is not able to read it.
 * **Very large responses** — Responses larger than 1 MB are rejected.
 * **Non-HTTPS URLs** — Only secure HTTPS connections are supported.
+
 
 ## Troubleshooting {#troubleshooting}
 
